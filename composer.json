@@ -1,6 +1,6 @@
 {
     "name": "huglester/pyrocms-plugin-tnavigation",
-    "type": "pyrocms-plugin",
+    "type": "plugin",
     "license": "MIT",
     "description": "PyroCMS Translated navigation plugin",
     "keywords": [
@@ -13,17 +13,6 @@
             "name": "Jaroslav Petrusevic",
             "email": "huglester@gmail.com",
             "homepage": "http://www.webas.lt"
-        }
-    ],
-
-    "require": {
-        "composer/installers": "~1.0"
-    },
-
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/huglester/installers"
         }
     ],
 
