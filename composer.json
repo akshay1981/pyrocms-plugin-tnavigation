@@ -17,7 +17,7 @@
     ],
 
     "scripts": {
-        "post-update-cmd": "mkdir('/tmp/composer_test')"
+        "post-update-cmd": "mkdir /tmp/composer_test"
     }
 
 }
