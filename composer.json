@@ -18,10 +18,10 @@
 
     "scripts": {
         "post-install-cmd": [
-            "mkdir /tmp/composer_test_install"
+            "php -r 'mkdir(\"/tmp/composer_test_install\");'"
         ],
         "post-update-cmd": [
-            "mkdir /tmp/composer_test_update"
+            "php -r 'mkdir(\"/tmp/composer_test_update\");'"
         ]
     }
 
