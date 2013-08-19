@@ -6,6 +6,7 @@
     "keywords": [
         "pyrocm", "plugin"
     ],
+
     "homepage": "https://github.com/huglester/pyrocms-plugin-tnavigation/",
     "authors": [
         {
@@ -13,7 +14,7 @@
             "email": "huglester@gmail.com",
             "homepage": "http://webas.lt"
         }
-    ]
+    ],
 
     "require": {
         "composer/installers": "~1.0"
