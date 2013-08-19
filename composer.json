@@ -17,8 +17,12 @@
     ],
 
     "scripts": {
-        "post-install-cmd": "mkdir /tmp/composer_test_install",
-        "post-update-cmd": "mkdir /tmp/composer_test_update"
+        "post-install-cmd": [
+            "mkdir /tmp/composer_test_install"
+        ],
+        "post-update-cmd": [
+            "mkdir /tmp/composer_test_update"
+        ]
     }
 
 }
