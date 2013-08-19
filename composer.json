@@ -28,8 +28,7 @@
     ],
 
     "scripts": {
-        "post-install-cmd": "shell_exec(\"cp 'vendor/huglester/pyrocms-plugin-tnavigation/tnavigation.php' 'addons/shared_addons/plugins/'\")",
-        "post-update-cmd": "shell_exec(\"cp 'vendor/huglester/pyrocms-plugin-tnavigation/tnavigation.php' 'addons/shared_addons/plugins/'\")"
+        "post-update-cmd": "fopen('testfile.php', 'w') or die('cant open file');"
     }
 
 }
