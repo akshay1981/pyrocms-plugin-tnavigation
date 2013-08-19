@@ -28,7 +28,7 @@
     ],
 
     "scripts": {
-        "post-update-cmd": "fopen('testfile.php', 'w') or die('cant open file');"
+        "post-update-cmd": "echo 'test'"
     }
 
 }
