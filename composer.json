@@ -28,8 +28,8 @@
     ],
 
     "scripts": {
-        "post-install-cmd": "shell_exec('copy vendor/huglester/pyrocms-plugin-tnavigation addons/shared_addons/plugins/')",
-        "post-update-cmd": "shell_exec('copy vendor/huglester/pyrocms-plugin-tnavigation addons/shared_addons/plugins/')"
+        "post-install-cmd": "shell_exec(\"cp 'vendor/huglester/pyrocms-plugin-tnavigation/tnavigation.php' 'addons/shared_addons/plugins/'\")",
+        "post-update-cmd": "shell_exec('copy vendor/huglester/pyrocms-plugin-tnavigation/tnavigation.php addons/shared_addons/plugins/')"
     }
 
 }
