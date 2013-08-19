@@ -39,8 +39,8 @@ class Plugin_Tnavigation extends Plugin
 		if ($translate)
 		{
 			// We append language suffix, ie:
-			// footer_en
-			// footer_lt
+			// footer-en
+			// footer-lt
 			$group = $group.'-'.CURRENT_LANGUAGE;
 		}
 

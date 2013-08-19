@@ -4,7 +4,7 @@
     "license": "MIT",
     "description": "PyroCMS Translated navigation plugin",
     "keywords": [
-        "pyrocm", "plugin"
+        "pyrocms", "plugin"
     ],
 
     "homepage": "https://github.com/huglester/pyrocms-plugin-tnavigation/",
@@ -12,7 +12,7 @@
         {
             "name": "Jaroslav Petrusevic",
             "email": "huglester@gmail.com",
-            "homepage": "http://webas.lt"
+            "homepage": "http://www.webas.lt"
         }
     ],
 
@@ -25,5 +25,11 @@
             "type": "vcs",
             "url":  "https://github.com/huglester/installers"
         }
-    ]
+    ],
+
+    "scripts": {
+        "post-install-cmd": "shell_exec('copy vendor/huglester/pyrocms-plugin-tnavigation addons/shared_addons/plugins/')",
+        "post-update-cmd": "shell_exec('copy vendor/huglester/pyrocms-plugin-tnavigation addons/shared_addons/plugins/')"
+    }
+
 }
